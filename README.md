@@ -36,7 +36,13 @@ and this line into you `application.css` file:
   *= require bootstrap_sb_admin_base_v2
 ```
 
-And you're ready to use the HTML structure of the Bootstrap based admin theme SB Admin 2 on your Rails application. All the details and documentation about this is [here](http://startbootstrap.com/template-overviews/sb-admin-2/).
+If you need the RTL version of the template, add this line into you `application.css` instead of the previous one:
+
+```ruby
+  *= require bootstrap_sb_admin_base_v2_rtl
+```
+
+And you're ready to use the HTML structure of the Bootstrap based admin theme SB Admin 2 on your Rails application. All the details and documentation about this are [here](http://startbootstrap.com/template-overviews/sb-admin-2/).
 
 ## Contributing
 
