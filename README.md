@@ -46,6 +46,8 @@ You can check the RTL version I've used to add this adaptation [here](https://gi
 
 And you're ready to use the HTML structure of the Bootstrap based admin theme SB Admin 2 on your Rails application. All the details and documentation about this are [here](http://startbootstrap.com/template-overviews/sb-admin-2/).
 
+If you need an example to see how to integrate the gem into your Rails project, I've developed a simple Rails application in order to test the gem, you can check this app here: https://sensor-admin-panel-testing.herokuapp.com (test email: example@email.com, password: 123456example), and here you have the Github repo to be able to check the code: https://github.com/dreamingechoes/sensors_admin_panel.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/dreamingechoes/bootstrap_sb_admin_base_v2. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
