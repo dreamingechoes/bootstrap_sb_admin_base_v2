@@ -4,7 +4,7 @@
 
 bootstrap_sb_admin_base_v2 is a (work in progress) Rails gem of the Bootstrap based admin theme SB Admin 2. Originally created by Start Bootstrap, all the credits of the development of the Bootstrap admin theme are of them. This is just and adaptation into Rails gem in order to make it easier to integrate all the assets (fonts, images, css and js) into a Rails application.
 
-You can check the original Bootstrap admin theme repository [here](https://github.com/IronSummitMedia/startbootstrap-sb-admin-2).
+You can check the original Bootstrap admin theme repository [here](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2).
 
 ## Installation
 

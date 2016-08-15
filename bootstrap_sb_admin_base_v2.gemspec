@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["xixon.sound@gmail.com"]
 
   spec.summary       = "Rails gem of the Bootstrap based admin theme SB Admin 2"
-  spec.description   = "Rails gem of the Bootstrap based admin theme SB Admin 2. Originally created by Start Bootstrap. You could check the original theme on https://github.com/IronSummitMedia/startbootstrap-sb-admin-2"
+  spec.description   = "Rails gem of the Bootstrap based admin theme SB Admin 2. Originally created by Start Bootstrap. You could check the original theme on https://github.com/BlackrockDigital/startbootstrap-sb-admin-2"
   spec.homepage      = "https://github.com/dreamingechoes/bootstrap_sb_admin_base_v2"
   spec.license       = "MIT"
 
