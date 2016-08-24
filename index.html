@@ -47,6 +47,8 @@
 
         <h2>Usage</h2>
 
+        <h3>Version 0.2.x and below</h3>
+
         <p>After install the gem, the only thing you should do in your Rails application is add some lines into your manifests files. Add this into your <code>application.js</code> file:</p>
 
         <pre><code class="language-ruby">  //= require bootstrap_sb_admin_base_v2 </code></pre>
@@ -54,6 +56,21 @@
         <p>and this line into you <code>application.css</code> file:</p>
 
         <pre><code class="language-ruby">  *= <span class="hljs-keyword">require</span> bootstrap_sb_admin_base_v2 </code></pre>
+
+        <h3>Version 0.3.x and above</h3>
+
+        <p>On version 0.3.x or above has been added two dependencies: <code>jquery-rails</code> and <code>font-awesome-rails</code> in order to keep updated the versions of <strong>jQuery</strong> and <strong>font-awesome</strong>, so be sure to require jquery-rails on your <code>application.js</code> before require the <code>bootstrap_sb_admin_base_v2</code> file like so:</p>
+
+        <pre><code class="language-ruby">  //= require jquery
+  //= require jquery_ujs
+  //= require ootstrap_sb_admin_base_v2 </code></pre>
+
+        <p>and on the application.css file, be sure to require the font-awesome-rails file:</p>
+
+        <pre><code class="language-ruby">  *= <span class="hljs-keyword">require</span> font-awesome </code>
+  *= <span class="hljs-keyword">require</span> bootstrap_sb_admin_base_v2 </code></pre>
+
+        <h3>RTL Version</h3>
 
         <p>If you need the RTL version of the template, add this line into you <code>application.css</code> instead of the previous one:</p>
 
