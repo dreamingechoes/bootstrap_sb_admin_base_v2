@@ -24,6 +24,8 @@ Or install it yourself as:
 
 ## Usage
 
+### Version 0.2.x and below
+
 After install the gem, the only thing you should do in your Rails application is add some lines into your manifests files. Add this into your `application.js` file:
 
 ```ruby
@@ -35,6 +37,25 @@ and this line into you `application.css` file:
 ```ruby
   *= require bootstrap_sb_admin_base_v2
 ```
+
+### Version 0.3.x and above
+
+On version 0.3.x or above has been added two dependencies: `jquery-rails` and `font-awesome-rails` in order to keep updated the versions of **jQuery** and **font-awesome**, so be sure to require `jquery-rails` on your `application.js` before require the `bootstrap_sb_admin_base_v2` file like so:
+
+```ruby
+  //= require jquery
+  //= require jquery_ujs
+  //= require bootstrap_sb_admin_base_v2
+```
+
+and on the `application.css` file, be sure to require the `font-awesome-rails` file:
+
+```ruby
+  *= require font-awesome
+  *= require bootstrap_sb_admin_base_v2
+```
+
+### RTL Version
 
 If you need the RTL version of the template, add this line into you `application.css` instead of the previous one:
 
