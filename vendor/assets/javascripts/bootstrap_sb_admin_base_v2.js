@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require ./jquery/jquery.dataTables.min
+//= require ./bootstrap/bootstrap.min
 //= require ./bootstrap/dataTables.bootstrap.min
 //= require ./metis_menu/metisMenu.min
 //= require ./morris/morris.min
