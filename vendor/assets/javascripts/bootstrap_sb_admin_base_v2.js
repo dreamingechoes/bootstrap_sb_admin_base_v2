@@ -10,14 +10,13 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require_tree ./flot
 //= require ./jquery/jquery.dataTables.min
+//= require ./bootstrap/bootstrap.min
 //= require ./bootstrap/dataTables.bootstrap.min
 //= require ./metis_menu/metisMenu.min
 //= require ./morris/morris.min
 //= require ./raphael/raphael-min
-//= require_tree ./flot
 //= require ./sb-admin-2/sb-admin-2
 
-$(document).ready(function(){
-
-});
+$(document).ready(function(){ });
