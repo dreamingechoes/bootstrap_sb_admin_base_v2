@@ -49,19 +49,19 @@ table.dataTable {
       cursor: pointer;
     }
     .sorting {
-      background: url('../../../images/bootstrap/datatables/sort_both.png') no-repeat center left;
+      background: image-url('bootstrap/datatables/sort_both.png') no-repeat center left;
     }
     .sorting_asc {
-      background: url('../../../images/bootstrap/datatables/sort_asc.png') no-repeat center left;
+      background: image-url('bootstrap/datatables/sort_asc.png') no-repeat center left;
     }
     .sorting_desc {
-      background: url('../../../images/bootstrap/datatables/sort_desc.png') no-repeat center left;
+      background: image-url('bootstrap/datatables/sort_desc.png') no-repeat center left;
     }
     .sorting_asc_disabled {
-      background: url('../../../images/bootstrap/datatables/sort_asc_disabled.png') no-repeat center left;
+      background: image-url('bootstrap/datatables/sort_asc_disabled.png') no-repeat center left;
     }
     .sorting_desc_disabled {
-      background: url('../../../images/bootstrap/datatables/sort_desc_disabled.png') no-repeat center left;
+      background: image-url('bootstrap/datatables/sort_desc_disabled.png') no-repeat center left;
     }
   }
   th:active {
